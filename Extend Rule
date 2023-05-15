@@ -1,0 +1,18 @@
+#extend
+# data = ['ram', 'hari' 'sophia', 'gopal']
+# data1=['madan', 'laxmi']
+# # data.append(data1)
+# data.extend(data1)
+# print(data)
+
+
+# data= { "name": "sagar",
+#        "age": 22,
+#        "address": {
+#                    "city": "kathmandu",
+#        "country": [ "nepal", "india"]}}
+
+
+# print(f"my name is {data['name']}")
+# print(f"I live in {data['address']['city']}")
+# print(f"I live in {data['address']['country'][0]}")

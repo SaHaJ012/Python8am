@@ -1,0 +1,7 @@
+# input
+
+# name = input('enter name:')
+# age = input('enter age')
+# email = input('enter email:')
+# address = input('enter address:')
+# print(f"my name is {name},age is {age}; email is {email}, address is {address}")

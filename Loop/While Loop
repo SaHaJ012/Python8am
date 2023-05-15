@@ -1,0 +1,137 @@
+# x = 1
+# data = []
+# num = int(input('enter number'))
+
+# while x <= num :
+#     name = input('enter name')
+#     data.append(name)
+#     x += 1
+# print(data)
+
+
+
+# Wap to find even and odd in given number of data.
+
+# t = int(input("how many numbers: "))
+# num = 1
+# evn = 0
+# while num <= t:
+#     anum = int(input("enter mumber: "))
+#     if anum % 2 == 0:
+#         evn += 1
+#     num += 1
+# print(f"there are :{evn} even numbers")
+# print(f"there are {t - evn} odd numbers")
+
+
+# Wap to find the total marks and percentage.
+
+# num = int(input("Enter number of students: "))
+# x = 1
+# students_marks = []
+# while x <= num:
+#     for a in range(1):
+#         nepali = int(input("Enter nepali marks: "))
+#         english = int(input("Enter english marks: "))
+#         computer = int(input("Enter computer marks: "))
+#         math = int(input("Enter math marks: "))
+#         science = int(input("Enter science marks: "))
+#         total = nepali + english + computer + math + science
+#         students_marks.append(total)
+#     x += 1
+# for mark in students_marks:
+#     percentage = mark / 5
+#     if percentage > 35 and percentage <= 45:
+#         print("C")
+#     elif percentage > 45 and percentage <= 60:
+#         print("B")
+#     elif percentage > 60 and percentage <= 80:
+#         print("A")
+#     elif percentage > 80 and percentage <= 100:
+#         print("A+")
+#     else:
+#         print("Fail")
+
+# students_marks.sort()
+# highest = students_marks.pop()
+# print(f'the highest score is: {highest}')
+
+#Wap to find active and inactive users, male, female from data.
+
+# data = [
+#     {'name': 'ram', 'age': 20, 'gender': 'male', 'status': True},
+#     {'name': 'sita', 'age': 21, 'gender': 'female', 'status': True},
+#     {'name': 'hari', 'age': 21, 'gender': 'male', 'status': True},
+#     {'name': 'gita', 'age': 21, 'gender': 'female', 'status': False},
+#     {'name': 'madan', 'age': 21, 'gender': 'male', 'status': False},
+
+# ]
+
+# total_users = len(data)
+# total_active_user = 0
+# total_inactive_user = 0
+# total_active_male = 0
+# total_inactive_male = 0
+# total_active_female = 0
+# total_inactive_female = 0
+
+# x = 0
+# while x < len(data):
+#     if data[x]['status'] == True:
+#         total_active_user += 1
+#         if data[x]['gender'] == 'male':
+#             total_active_male += 1
+#         if data[x]['gender'] == 'female':
+#             total_active_female += 1
+
+#     else:
+#         if data[x]['gender'] == 'male':
+#             total_inactive_male += 1
+#         if data[x]['gender'] == 'female':
+#             total_inactive_female += 1
+#         total_inactive_user += 1
+
+#     x += 1
+
+# print('total users', total_users)
+# print('total active user', total_active_user)
+# print('total inactive user', total_inactive_user)
+# print('total active male', total_active_male)
+# print('total inactive male', total_inactive_male)
+# print('total active female', total_active_female)
+# print('total inactive female', total_inactive_female)
+
+# Wap to find the highest number from data.
+
+# data = [
+#     [
+#         [1, 2, 3, 4, 5],
+#         [11, 12, 13, 14, 15],
+#         [81, 92, 93, 49, 95]
+
+#     ]
+# ]
+
+# a = len(data)
+# x= 0 
+
+# while x < a :
+#     y = 0
+#     while y < len(data[x]):
+#         print(data[x][y])
+#         y += 1
+#     x =+ 1
+
+
+# Wap to find multiplication table.
+
+# a = 0
+# while a < 11 :
+#     b = 0
+#     while b < 11:
+#         c = a * b
+#         print(f'{a} X {b} = {c}')
+#         b += 1
+#     a += 1
+
+    

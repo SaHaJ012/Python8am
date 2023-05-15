@@ -1,0 +1,18 @@
+data = [
+    [
+        [1, 2, 3, 4, 5],
+        [11, 12, 13, 14, 15],
+        [81, 92, 93, 49, 95]
+
+    ]
+]
+
+a = len(data)
+x= 0 
+
+while x < a :
+    y = 0
+    while y < len(data[x]):
+        print(data[x][y])
+        y += 1
+    x =+ 1

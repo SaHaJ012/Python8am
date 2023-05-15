@@ -1,0 +1,8 @@
+# name='sahaj'
+# age=90
+# address='kathmandu'
+# print(type(name))
+
+# print(type(name))
+# print(type(age))
+# print(type(address))

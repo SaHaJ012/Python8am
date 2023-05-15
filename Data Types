@@ -1,0 +1,28 @@
+#data types
+
+# nepali = int(input('enter nepali'))
+# english= int(input('enter english'))
+# math = int(input('enter math'))
+# science= int(input('enter sceince'))
+# social= int(input('enter social'))
+ 
+# total = nepali + english + math + science + social
+# print(f"total marks: {total}")
+
+
+# percentage =total/5
+# print(f"percentage: {percentage}")
+
+
+# p= float(input("enter principal"))
+# r= float(input('enter rate'))
+# t= float(input('enter time'))
+# SI = (p * t * r) / 100
+# print(f"simple interest: {SI}")
+
+# SIP = SI * r * t / 100
+
+# name= input('enter your name')
+# age= int(input('enter your age'))
+# address=str(input('enter your address'))
+# print(f'the name is : {name} , age is {age} , address is {address}')

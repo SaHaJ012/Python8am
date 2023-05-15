@@ -1,0 +1,194 @@
+# Wap to find the voters eligible or not using IF and Else
+
+# name=(input("enter your name"))
+# age=int(input('enter your age'))
+
+# if age >= 18 and age <= 40:
+#     print('You can vote')
+# else:
+#     print('You cannot vote')
+
+
+# name=(input('enter your name'))
+# age=int(input('enter your age'))
+
+# if age >= 18 and age <= 60:
+#     print("you are eligible to vote")
+# elif age < 18:
+#     print('you are younger to vote')
+# else:
+#     print('you are older to vote')
+                   #OR
+# name = (input('enter your name'))
+# age = int(input('enter your age'))
+
+# if age > 18 and age < 40:
+#     print('you are allowed to go party')
+#     if age >= 18 and age <= 25:
+#         print('you can drink coke only')
+#     else:
+#         print('you can drink beer')
+# else:
+#     print('No entry.')
+
+# Wap to find which number is greater just using IF
+
+# x = 7
+# y = 8 
+# z = 9
+
+# if x > y :
+#     if x > z:
+#         print('x is greater')
+# if y > z:
+#     if y > x:
+#         print ('y is greater')
+# if z > x:
+#     if z > y:
+#         print('z is greater')
+
+
+# atm system
+
+# print('Welcome to the ATM machine')
+
+# totalamt= 10000
+# pin= print(input('enter your pin number'))
+# if pin == 1234 :
+#     question= input("Do you want to withdraw money?")
+#     if question == "yes" :
+
+#         withdrawamt = int(input('enter the money you want to withdraw'))
+#         if totalamt <= 10000 :
+#             totalamt = totalamt - withdrawamt
+    
+#         else:
+#             print("you dont have enough balance")
+
+#     else:
+#         print('Thank you for your use')
+
+
+# else:
+#     print('you have entered incorrect pin code. Please try again ')
+                             
+                                  #OR
+
+# print("Welcome to the ATM")
+# pin = input("Enter your pin: ")
+# if pin == '1234':
+#     total_amount = 10000
+#     print(f"your balance is {total_amount}")
+#     question = input("Do you want to withdraw money? ")
+#     if question == 'yes':
+#         amount = int(input("Enter the amount: "))
+#         if amount <= total_amount:
+#             total_amount = total_amount - amount
+#             print("Your balance is: ", total_amount)
+#             print("Please collect your cash")
+#         else:
+#             print("You don't have enough balance")
+#     else:
+#         print("Thank you for using our ATM")
+# else:
+#     print("Invalid pin")
+
+# Wap to find which number is greater for 3 numbers.
+
+# a = int(input("Enter a: "))
+# b = int(input("Enter b: "))
+# c = int(input("Enter c: "))
+
+
+# if a > b and a > c:
+#     if b > c:
+#         print(a, b, c)
+#     else:
+#         print(a, c, b)
+# elif b > a and b > c:
+#     if a > c:
+#         print(b, a, c)
+#     else:
+#         print(b, c, a)
+
+# else:
+#     if a > b:
+#         print(c, a, b)
+#     else:
+#         print(c, b, a)
+
+# Wap to enter any number and check it is divisible by 3 and 5 or not
+
+# num = int(input('enter any number: '))
+# if num % 3 == 0 and num % 5 == 0 :
+#     print('it is divisible by both 3 and 5')
+# else:
+#     print('it is not divisible by 3 and 5')
+
+# Wap to find the username and password  are correct or not.
+# user = [
+#     {'username':'admin', 'password':'admin123'},
+#     {'username':'ram', 'password':'ram002'}
+# ]
+
+# username = input("Enter your UserName : ")
+# password = input("Enter your Password : ")
+
+# if username == user[0]['username'] and password == user[0]['password']:
+#     print("Login Sussessful")
+# elif username == user[1]['username'] and password == user[1]['password']:
+#     print("Login Sussessful")
+# else:
+#     print("Incorrect Username or PAssword")
+
+# Wap to find name, email, address. 
+
+#data = {
+#     'name' : '',
+#     'email' : '',
+#     'address' : ''
+# }
+
+
+# data['name'] =input('enter your name: ')
+# data['email'] =input('enter your email: ') 
+# data['address'] =input('enter your address: ')
+
+# print(data)
+
+# Wap to find name and age from students.
+
+# students = [
+#     {'name': 'ram', 'age' : 20},
+#     {'name': 'shyam', 'age': 21}
+# ]
+
+# print(f"my name is  {students[0]['name']}")
+# print(f"my age is  {students[0]['age']}")
+# print(f"my name is {students[1]['name']}") 
+# print(f"my age is  {students[1]['age']}")
+
+# Wap to find name extracting from users.
+
+#     users = [
+#     ['ram', 'ram002'],
+#     ['admin', 'admin002']
+# ]
+
+# username = input("Enter your Username : ")
+# password = input("Enter your Password : ")
+
+# if users[0][0] == username and users[0][1] == password:
+#     print("Welcome")
+# elif users[1][0] == username and users[1][1] == password:
+#     print("Welcome")
+# else:
+#     print("Incorrect PAssword")
+
+# Wap to find ram and laxmi from data.
+
+# data = ['ram', 'sita', 'hari', 'gita', 'laxmi']
+# for x in data:
+#     if x== 'ram' or x == 'laxmi' :
+#         print(x)
+

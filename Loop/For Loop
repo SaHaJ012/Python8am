@@ -1,0 +1,240 @@
+# Wap to find total user.
+
+# data = ['ram', 'sita', 'hari', 'gita', 'laxmi']
+# count = 0
+# for name in data : 
+#     print(name)
+#     count += 1  # or count = count + 1
+# print('total user', count)    # or print('total user', len(data)
+
+                      # OR
+
+# data = ['ram', 'sita', 'hari', 'gita', 'laxmi']
+# for x in data:
+#     if x== 'ram' or x == 'laxmi' :
+#         print(x)
+
+# Wap to find the total even and odd numbers.
+
+# number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13]
+# even = 0
+# for i in number:
+#     if i % 2 == 0 :
+#         even = even + 1
+# odd = len(number) - even
+# print(f'the total even number is {even}')
+# print(f'the total odd number is {odd}')
+
+# Wap to find even and odd from data list.
+
+# data = [
+#     [1, 2, 3, 4, 5],
+#     [6, 7, 8, 9, 10],
+#     [11, 12, 13,14,14]
+# ]
+
+# even = 0
+# odd = 0
+# for i in data :
+#     for j in  i:
+#         if j % 2 == 0 :
+#             even += 1
+#         else:
+#             odd += 1  
+# print('even:', even)
+# print('odd:', odd)
+
+# Wap to output 1,6,11 
+
+# data = [
+#     [1, 2, 3, 4, 5],
+#     [6, 7, 8, 9, 10],
+#     [11, 12, 13,14,14]
+# ]
+
+# for num in data:
+#     for i in num:
+#         if i == 1 or i ==6 or i ==11 : 
+#             print(i)
+                        # OR
+# for i in range(3) :
+#     print(data[i][0])
+
+#Wap to find the multiplication of any number.
+
+# num = int(input('enter a number: '))
+# for i in range(1, 11) :
+#     c =  num * i
+#     print(f'{num} x {i} = {c}')
+
+
+# data = [
+#     {'name': 'ram', 'age': 20,'gender':'male','status':True},
+#     {'name': 'sita', 'age': 21,'gender':'female','status':True},
+#     {'name': 'hari', 'age': 21,'gender':'male','status':True},
+#     {'name': 'gita', 'age': 21,'gender':'female','status':False},
+#     {'name': 'madan', 'age': 21,'gender':'male','status':False},
+# ]
+
+# a = len(data)
+# print(f"Total People are : {a}")
+# count = 0              
+# for i in range(5):
+#     if data[i]['status'] == True:
+#         count = count + 1        
+#         inac = a - count
+# print(f"Total Active People : {count} ")
+# print(f"The Inactive people : {inac} ")
+# actmale = 0
+# for j in range(5):
+#     if data [j]['gender'] == "male" and data[j]['status'] == True:
+#             actmale = actmale + 1
+# print (f"Active Male : {actmale}")
+# actfe = 0
+# for j in range(5):
+#     if data [j]['gender'] == "female" and data[j]['status'] == True:
+#             actfe = actfe + 1
+# print (f"Active female : {actfe}")
+
+                             #or
+# data = [
+#     {'name': 'ram', 'age': 20,'gender':'male','status':True},
+#     {'name': 'sita', 'age': 21,'gender':'female','status':True},
+#     {'name': 'hari', 'age': 21,'gender':'male','status':True},
+#     {'name': 'gita', 'age': 21,'gender':'female','status':False},
+#     {'name': 'madan', 'age': 21,'gender':'male','status':False},
+# ]
+
+# total = 0
+# tot_active = 0
+# tot_inactive = 0
+# tot_active_male = 0
+# tot_inactive_male = 0
+# tot_active_female = 0
+# tot_inactive_female = 0
+
+# for i in range(len(data)):
+#     total += 1
+#     if data[i]['status'] == True:
+#         tot_active += 1
+#     else:
+#         tot_inactive += 1
+
+#     if data[i]['status'] == True and data[i]['gender'] == 'male':
+#         tot_active_male += 1
+#     elif data[i]['status'] != True and data[i]['gender'] == 'male':
+#         tot_inactive_male += 1
+
+#     if data[i]['status'] == True and data[i]['gender'] == 'female':
+#         tot_active_female += 1
+#     if data[i]['status'] != True and data[i]['gender'] == 'female':
+#         tot_inactive_female += 1
+
+# print("total users: ",total)
+# print("total active users: ",tot_active)
+# print("total inactive users: ",tot_inactive)
+# print("total active male users: ",tot_active_male)
+# print("total inactive male users: ",tot_inactive_male)
+# print("total active female users: ",tot_active_female)
+# print("total inactive female users: ",tot_inactive_female)
+
+# Wap to find the numbers 10,8,6,4,2.
+
+#for i in range(10, 0, -2):
+    #print (i)
+
+# Wap to find a multiplication table of any number.
+
+# num =int(input('enter a number: '))
+# for i in range(1,11):
+#     print(num, 'X', i, '=', num * i )
+
+# Wap to find percentage in grade.
+
+# subject = int(input("Enter the marks: "))
+# for i in range(subject):    
+#         eng = int(input("English: "))
+#         nep = int(input("Nepali: "))
+#         math = int(input("Math: "))
+#         comp = int(input("Computer: "))
+
+#         Total = eng+nep+math+comp 
+#         percent = Total/4
+#         if percent >90 and percent <=100:
+#             print("A+")
+#         elif percent >80 and percent <= 90:
+#             print("B+" )    
+#         elif percent > 70 and percent <= 80:
+#             print("C+")
+#         elif percent > 60 and percent <= 70:
+#             print("D+")
+#         elif percent > 50 and percent <= 60:
+#             print("E+")
+#         else:
+#             print("Invalid Result!!!!")
+
+
+# Wap to find a multiplication table and show only even numbers.
+
+# data= []
+# num = int(input('enter a number: '))
+# for i in range(1,11):
+#     c = num * i
+#     print(f'{num} * {i} = {c}')
+#     data.append(c)
+# for j in data:
+#     if j % 2 ==0 :
+#         print(f'{j} is even  number')        
+
+# Wap to find the duplicate number in  the list given by user.
+
+
+# data= []
+# num = int(input('enter any number'))
+# for i in range(num):
+#     num1 = int(input('enter any number'))
+#     data.append(num1)
+# duplist= []    
+# newlist = []
+# for i in data:
+#     if i not in newlist:
+#         newlist.append(i)
+#     else:
+#         duplist.append(i)
+# print(duplist)
+        
+
+# Wap to find male and female in people.
+
+# male =0
+# female =0
+# num =int(input('enter the number of people: '))
+# for i in range(num):
+#     name= input('enter your name: ')
+#     gender=input('enter your gender: ')
+#     if gender == "male":
+#         male = male + 1
+#     else:
+#         female = female + 1
+
+# print(f'the male is {male} and female = {female}')
+
+# Wap to find the highest number from data.
+
+# data = [
+#     [
+#         [1, 2, 3, 4, 5],
+#         [11, 12, 13, 14, 15],
+#         [81, 92, 93, 49, 95]
+
+#     ]
+# ]
+
+# for i in range(5):
+#     sum = 0
+#     for j in range(3):
+#         sum = data[0][j][i] + sum
+#     print (sum)
+
+
+

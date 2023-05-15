@@ -1,0 +1,14 @@
+#append rule
+
+
+# users= []
+# name= (input('enter your name'))
+# email= str(input('enter your email'))
+# phone= int(input('enter your phone number'))
+# print(name)
+# print(email)
+# print(phone)
+# users.append(name)
+# users.append(email)
+# users.append(phone)
+# print(users)
